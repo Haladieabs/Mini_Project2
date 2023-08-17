@@ -1,7 +1,11 @@
-body{background-color: #FFF9C9;}
+body{background-color: #0C356A;}
 table, th, td{text-align: center;
-border: 1px solid black;
+border: 1px solid #68b7db;
 margin-left: 22%;
 margin-top: 5%;
+color:aliceblue;
 }
-#h1{text-align: center;}
+#h1{text-align: center;
+color: aliceblue;}
+p{color: aliceblue;
+text-align: center;}

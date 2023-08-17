@@ -7,38 +7,38 @@
 <body>
   
   <form action="register.php" method="POST" class="form">
-  <img src="image44.png" alt=""><br>
+  <img src="./dieabs-logo__1_-removebg-preview (2).png" alt=""><br>
   <h2>Sign Up</h2>
-    <label for="email">Email:</label>
+    <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
-    <label for="mobile">Mobile:</label>
+    <label for="mobile">Mobile:</label><br>
     <input type="tel" id="mobile" name="mobile" pattern="[0-9]{14}" required>
     <!-- <small>Format: 12345678901234</small> --><br><br>
 
     <!-- Full Name fields -->
-    <label for="first_name">First Name:</label>
+    <label for="first_name">First Name:</label><br>
     <input type="text" id="first_name" name="first_name" required><br><br>
 
-    <label for="middle_name">Middle Name:</label>
+    <label for="middle_name">Middle Name:</label><br>
     <input type="text" id="middle_name" name="middle_name"><br><br>
 
-    <label for="last_name">Last Name:</label>
+    <label for="last_name">Last Name:</label><br>
     <input type="text" id="last_name" name="last_name" required><br><br>
 
-    <label for="family_name">Family Name:</label>
+    <label for="family_name">Family Name:</label><br>
     <input type="text" id="family_name" name="family_name" required><br><br>
 
     <!-- Password fields -->
-    <label for="password">Password:</label>
+    <label for="password">Password:</label><br>
     <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$" required>
    <br><br>
 
-    <label for="password_confirm">Confirm Password:</label>
+    <label for="password_confirm">Confirm Password:</label><br>
     <input type="password" id="password_confirm" name="password_confirm" required><br><br>
 
     <!-- Date of Birth field -->
-    <label for="dob">Date of Birth:</label>
+    <label for="dob">Date of Birth:</label><br>
     <select id="day" name="day" required>
     <option value="">Day</option>
     <?php
@@ -74,7 +74,7 @@
   <br><br>
   
     <!-- User Type field -->
-    <label for="user_type">User Type:</label>
+    <label for="user_type">User Type:</label><br>
     <select id="user_type" name="user_type" required>
       <option value="">Select User Type</option>
       <option value="user">User</option>
